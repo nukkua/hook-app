@@ -8,10 +8,6 @@ export const useFetch = (url) => {
 	});
 
 	const getFetch = async () => {
-		setState({
-			...state,
-			isLoading: true
-		});
 		try {
 			const resp = await fetch(url);
 			if (!resp.ok) throw new Error('Error fetching data');

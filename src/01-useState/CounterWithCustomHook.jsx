@@ -22,4 +22,5 @@ export const CounterWithCustomHook = () => {
 	);
 };
 
-// Centralizar la logica de negocio en hooks???,  seria la mejor practica
+//  yes sir
+
